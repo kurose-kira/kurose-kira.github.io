@@ -4,7 +4,7 @@ import avatar from "./assets/avatar.jpg";
 function App() {
   return (
     <div
-      style={{ padding: "40px", fontFamily: "sans-serif", lineHeight: "1.6" }}
+      style={{ padding: "40px 0", fontFamily: "sans-serif", lineHeight: "1.6" }}
     >
       <header>
         <img src={avatar} alt="avatar.jpg" />
@@ -37,6 +37,8 @@ function App() {
         <a href="https://github.com/kurose-kira">GitHub</a>
         <p></p>
         <a href="https://x.com/kurose_kira">𝕏（旧 Twitter）</a>
+        <p></p>
+        <a href="http://discord.com/users/1443259259570880573">Discord</a>
       </section>
     </div>
   );
