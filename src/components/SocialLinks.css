@@ -1,0 +1,18 @@
+.glass-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px; /* アイコンと文字の距離 */
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px; /* あなたが確認した角丸 */
+  color: #fff;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  border-color: rgba(0, 255, 127, 0.4); /* 緑の発光 */
+}

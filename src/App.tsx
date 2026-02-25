@@ -1,5 +1,9 @@
 import "./App.css";
 import avatar from "./assets/avatar.jpg";
+import Skills from "./components/Skills";
+import Tools from "./components/Tools";
+import Projects from "./components/Projects";
+import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
@@ -11,35 +15,10 @@ function App() {
         <h1>黒瀬 綺（くろせ きら）</h1>
         <p>低レベル & フルスタック エンジニア</p>
       </header>
-      <section>
-        <h2>技術スタック</h2>
-        <ul>
-          <li>
-            言語: JavaScript（習得済み）, TypeScript（習得済み）, Python, Rust,
-            C, x86_64 Assembly, Java, Kotlin
-          </li>
-          <li>
-            ツール: Vite, React, Next.js, Node.js, Linux（Server
-            Administration）
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>現在進行中のプロジェクト</h2>
-        <ul>
-          <li>
-            <strong>テキスト</strong>テキスト
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Links</h2>
-        <a href="https://github.com/kurose-kira">GitHub</a>
-        <p></p>
-        <a href="https://x.com/kurose_kira">𝕏（旧 Twitter）</a>
-        <p></p>
-        <a href="http://discord.com/users/1443259259570880573">Discord</a>
-      </section>
+      <Skills />
+      <Tools />
+      <Projects />
+      <SocialLinks />
     </div>
   );
 }
