@@ -7,9 +7,7 @@ import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
-    <div
-      style={{ padding: "40px 0", fontFamily: "sans-serif", lineHeight: "1.6" }}
-    >
+    <div style={{ padding: "40px 0", lineHeight: "1.6" }}>
       <header>
         <img src={avatar} alt="avatar.jpg" />
         <h1>黒瀬 綺（くろせ きら）</h1>

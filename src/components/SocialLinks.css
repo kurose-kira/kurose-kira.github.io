@@ -1,5 +1,5 @@
 .glass-link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 12px; /* アイコンと文字の距離 */
   padding: 12px 20px;

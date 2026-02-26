@@ -4,10 +4,10 @@ function Projects() {
       <h2>Projects</h2>
 
       <div className="social-links">
-        <a>aaa</a>
+        <article>aaa</article>
       </div>
     </section>
   );
 }
 
-export default Projects; // この形式で全く問題ありません
+export default Projects;

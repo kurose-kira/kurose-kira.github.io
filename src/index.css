@@ -28,10 +28,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2em;
   line-height: 1.1;
 }
 
