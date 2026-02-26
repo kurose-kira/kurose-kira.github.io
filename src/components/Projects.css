@@ -1,0 +1,35 @@
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 16px 16px;
+}
+
+article {
+  display: block;
+  text-align: left;
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+article:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  border-color: rgba(0, 255, 127, 0.4);
+}
+
+article h3 {
+  margin: 0 0 8px;
+  font-size: 1em;
+}
+
+article p {
+  margin: 0;
+  font-size: 0.85em;
+  color: rgba(255, 255, 255, 0.6);
+}
