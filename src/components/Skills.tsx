@@ -1,22 +1,22 @@
+import "./Skills.css";
+
 function Skills() {
   return (
     <section className="glass-panel">
       <h2>Skills</h2>
 
-      <div className="social-links">
-        <p>JavaScript</p>
-        <p>TypeScript</p>
-        <p>Python</p>
-        <p>Rust</p>
-        <p>C</p>
-        <p>x86_64 Assembly</p>
-        <p>Java</p>
-        <p>Kotlin</p>
-        <p>Vite</p>
-        <p>React</p>
-        <p>Next.js</p>
-        <p>Node.js</p>
-        <p>Linux（Server Administration）</p>
+      <div className="skill-panel">
+        <p className="skill">JavaScript</p>
+        <p className="skill">TypeScript</p>
+        <p className="skill">Node.js</p>
+        <p className="skill">Java</p>
+        <p className="skill">Kotlin</p>
+        <p className="skill">Python</p>
+        <p className="skill">Rust</p>
+        <p className="skill">C</p>
+        <p className="skill">C++</p>
+        <p className="skill">C#</p>
+        <p className="skill">Linux Server Administration</p>
       </div>
     </section>
   );

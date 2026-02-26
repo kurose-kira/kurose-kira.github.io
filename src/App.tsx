@@ -17,6 +17,7 @@ function App() {
       <Tools />
       <Projects />
       <SocialLinks />
+      <footer> &copy; 2026 kurose_kira_ . </footer>
     </div>
   );
 }

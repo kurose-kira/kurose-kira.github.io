@@ -1,14 +1,15 @@
+import "./Tools.css";
+
 function Tools() {
   return (
     <section className="glass-panel">
       <h2>Tools</h2>
 
-      <div className="social-links">
-        <p>Vite</p>
-        <p>React</p>
-        <p>Next.js</p>
-        <p>Node.js</p>
-        <p>Linux（Server Administration）</p>
+      <div className="tool-panel">
+        <p className="tool">Vite</p>
+        <p className="tool">React</p>
+        <p className="tool">Next.js</p>
+        <p className="tool">Discord.js</p>
       </div>
     </section>
   );
