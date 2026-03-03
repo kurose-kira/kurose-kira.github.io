@@ -4,6 +4,7 @@ import Skills from "./components/Skills";
 import Tools from "./components/Tools";
 import Projects from "./components/Projects";
 import SocialLinks from "./components/SocialLinks";
+import Note from "./components/Note";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Tools />
       <Projects />
       <SocialLinks />
+      <Note />
       <footer> &copy; 2026 kurose_kira_ . </footer>
     </div>
   );

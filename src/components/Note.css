@@ -1,0 +1,15 @@
+.note-messages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  width: fit-content;
+}

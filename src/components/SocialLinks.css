@@ -11,7 +11,11 @@
   align-items: center;
   gap: 12px;
   padding: 12px 20px;
-  background: rgba(255, 255, 255, 0.05);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.15),
+    rgba(0, 0, 0, 0.3)
+  );
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 12px;
@@ -21,7 +25,11 @@
 }
 
 .glass-link:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.15)
+  );
   transform: translateY(-2px);
-  border-color: rgba(0, 255, 127, 0.4); /* 緑の発光 */
+  border-color: rgba(0, 255, 127, 0.4);
 }
